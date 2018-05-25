@@ -24,6 +24,15 @@ namespace LearningUI
             {
                 new ColorItem() { Color = Android.Graphics.Color.DarkRed, ColorName = "Dark Red", Code = "8B0000" },
                 new ColorItem() { Color = Android.Graphics.Color.SlateBlue, ColorName = "Slate Blue", Code = "6A5ACD" },
+                new ColorItem() { Color = Android.Graphics.Color.ForestGreen, ColorName = "Forest Green", Code = "228B22" },
+                new ColorItem() { Color = Android.Graphics.Color.DarkRed, ColorName = "Dark Red", Code = "8B0000" },
+                new ColorItem() { Color = Android.Graphics.Color.SlateBlue, ColorName = "Slate Blue", Code = "6A5ACD" },
+                new ColorItem() { Color = Android.Graphics.Color.ForestGreen, ColorName = "Forest Green", Code = "228B22" },
+                new ColorItem() { Color = Android.Graphics.Color.DarkRed, ColorName = "Dark Red", Code = "8B0000" },
+                new ColorItem() { Color = Android.Graphics.Color.SlateBlue, ColorName = "Slate Blue", Code = "6A5ACD" },
+                new ColorItem() { Color = Android.Graphics.Color.ForestGreen, ColorName = "Forest Green", Code = "228B22" },
+                new ColorItem() { Color = Android.Graphics.Color.DarkRed, ColorName = "Dark Red", Code = "8B0000" },
+                new ColorItem() { Color = Android.Graphics.Color.SlateBlue, ColorName = "Slate Blue", Code = "6A5ACD" },
                 new ColorItem() { Color = Android.Graphics.Color.ForestGreen, ColorName = "Forest Green", Code = "228B22" }
             };
 

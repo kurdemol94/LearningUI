@@ -16,8 +16,6 @@ namespace LearningUI.Model
     {
         List<ColorItem> items;
         Activity context;
-        private MainActivity mainActivity;
-        private List<ColorItem> colorItems;
 
         public ColorAdapter(Activity context, List<ColorItem> items)
         {

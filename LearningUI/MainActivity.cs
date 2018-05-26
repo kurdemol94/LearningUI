@@ -9,7 +9,7 @@ using Android.Graphics;
 
 namespace LearningUI
 {
-    [Activity(Label = "LearningUI", MainLauncher = true)]
+    [Activity(Label = "LearningUI")]
     public class MainActivity : Activity
     {
         ListView listView;

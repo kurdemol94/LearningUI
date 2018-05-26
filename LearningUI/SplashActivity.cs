@@ -37,7 +37,7 @@ namespace LearningUI
         async void SimulateStartup()
         {
             Log.Debug(TAG, "Performing some startup work that takes a bit of time.");
-            await Task.Delay(8000);
+            await Task.Delay(4000);
             Log.Debug(TAG, "Startup work is finished - starting LoginActivity");
             StartActivity(new Intent(Application.Context, typeof(LoginActivity)));
         }

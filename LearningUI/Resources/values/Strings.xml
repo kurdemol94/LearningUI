@@ -3,5 +3,9 @@
   <string name="app_name">LearningUI</string>
   <string name="hint_email">Email</string>
   <string name="hint_password">Password</string>
+  <string name="hint_search">Search color by name</string>
   <string name="login_button">Login</string>
+  	<string name="strBottomLine">From android material design</string>
+	 <string name="open_drawer">Open drawer</string>
+	<string name="close_drawer">Close drawer</string>
 </resources>

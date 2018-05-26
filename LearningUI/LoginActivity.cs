@@ -23,10 +23,12 @@ namespace LearningUI
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Login);
+
             var loginBtn = FindViewById<Button>(Resource.Id.LoginButton);
             var emailInput = FindViewById<EditText>(Resource.Id.emailInput);
             var passwordInput = FindViewById<EditText>(Resource.Id.passwordInput);
             var errorLabel = FindViewById<TextView>(Resource.Id.errorLabel);
+
             loginBtn.Click += (sender, e) => {
                 VerifyLogin(emailInput, passwordInput, errorLabel);
             };
@@ -43,7 +45,7 @@ namespace LearningUI
             else
             {
                 Log.Debug(TAG, "Wrong email or password");
-                error.Text = "Wrong email or password. Try again.";
+                error.Text = "Wrong email or password";
                 HideSoftKeyboard();
             }
         }

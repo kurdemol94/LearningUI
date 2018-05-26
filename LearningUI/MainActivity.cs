@@ -3,13 +3,15 @@ using Android.Widget;
 using Android.OS;
 using LearningUI.Model;
 using System.Collections.Generic;
+using System.Reflection;
+using System.Linq;
+using Android.Graphics;
 
 namespace LearningUI
 {
     [Activity(Label = "LearningUI", MainLauncher = true)]
     public class MainActivity : Activity
     {
-        List<ColorItem> colorItems = new List<ColorItem>();
         ListView listView;
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -19,26 +21,30 @@ namespace LearningUI
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
             listView = FindViewById<ListView>(Resource.Id.myListView);
+            listView.Adapter = new ColorAdapter(this, GetColorItemsList());
+        }
 
-            List<ColorItem> colorList = new List<ColorItem>()
+        private List<ColorItem> GetColorItemsList()
+        {
+            List<ColorItem> colorItemsList = new List<ColorItem>();
+            var colorInstance = new Color();
+            var colorNamesList = colorInstance.GetType().GetProperties(BindingFlags.Public | BindingFlags.Static)
+                                      .Where(x => x.PropertyType == typeof(Color))
+                                      .Select(x => x.Name).ToList();
+            
+            foreach (var colorName in colorNamesList)
             {
-                new ColorItem() { Color = Android.Graphics.Color.DarkRed, ColorName = "Dark Red", Code = "8B0000" },
-                new ColorItem() { Color = Android.Graphics.Color.SlateBlue, ColorName = "Slate Blue", Code = "6A5ACD" },
-                new ColorItem() { Color = Android.Graphics.Color.ForestGreen, ColorName = "Forest Green", Code = "228B22" },
-                new ColorItem() { Color = Android.Graphics.Color.DarkRed, ColorName = "Dark Red", Code = "8B0000" },
-                new ColorItem() { Color = Android.Graphics.Color.SlateBlue, ColorName = "Slate Blue", Code = "6A5ACD" },
-                new ColorItem() { Color = Android.Graphics.Color.ForestGreen, ColorName = "Forest Green", Code = "228B22" },
-                new ColorItem() { Color = Android.Graphics.Color.DarkRed, ColorName = "Dark Red", Code = "8B0000" },
-                new ColorItem() { Color = Android.Graphics.Color.SlateBlue, ColorName = "Slate Blue", Code = "6A5ACD" },
-                new ColorItem() { Color = Android.Graphics.Color.ForestGreen, ColorName = "Forest Green", Code = "228B22" },
-                new ColorItem() { Color = Android.Graphics.Color.DarkRed, ColorName = "Dark Red", Code = "8B0000" },
-                new ColorItem() { Color = Android.Graphics.Color.SlateBlue, ColorName = "Slate Blue", Code = "6A5ACD" },
-                new ColorItem() { Color = Android.Graphics.Color.ForestGreen, ColorName = "Forest Green", Code = "228B22" }
-            };
+                var colorProperty = (Color) colorInstance.GetType().GetProperty(colorName).GetValue(null);
+                var colorItem = new ColorItem()
+                {
+                    Color = colorProperty,
+                    ColorName = colorName,
+                    Code = "R: " + colorProperty.R.ToString() + " G: " + colorProperty.G.ToString() + " B: " + colorProperty.B.ToString()
+                };
+                colorItemsList.Add(colorItem);
+            }
 
-            colorItems.AddRange(colorList);
-
-            listView.Adapter = new ColorAdapter(this, colorItems);
+            return colorItemsList;
         }
     }
 }

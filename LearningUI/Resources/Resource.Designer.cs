@@ -47,6 +47,9 @@ namespace LearningUI
 			// aapt resource value: 0x7f040002
 			public const int accent = 2130968578;
 			
+			// aapt resource value: 0x7f040005
+			public const int error_text = 2130968581;
+			
 			// aapt resource value: 0x7f040000
 			public const int primary = 2130968576;
 			
@@ -91,14 +94,26 @@ namespace LearningUI
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f070006
+			public const int LoginButton = 2131165190;
+			
+			// aapt resource value: 0x7f070004
+			public const int emailInput = 2131165188;
+			
+			// aapt resource value: 0x7f070007
+			public const int errorLabel = 2131165191;
+			
 			// aapt resource value: 0x7f070000
 			public const int imageView1 = 2131165184;
 			
 			// aapt resource value: 0x7f070001
 			public const int linearLayout1 = 2131165185;
 			
-			// aapt resource value: 0x7f070004
-			public const int myListView = 2131165188;
+			// aapt resource value: 0x7f070008
+			public const int myListView = 2131165192;
+			
+			// aapt resource value: 0x7f070005
+			public const int passwordInput = 2131165189;
 			
 			// aapt resource value: 0x7f070002
 			public const int textView1 = 2131165186;
@@ -123,7 +138,10 @@ namespace LearningUI
 			public const int ListItem = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int Login = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Main = 2130903042;
 			
 			static Layout()
 			{
@@ -140,6 +158,15 @@ namespace LearningUI
 			
 			// aapt resource value: 0x7f050000
 			public const int app_name = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int hint_email = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int hint_password = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int login_button = 2131034115;
 			
 			static String()
 			{

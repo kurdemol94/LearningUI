@@ -37,7 +37,7 @@ namespace LearningUI
 
         private void VerifyLogin(EditText email, EditText password, TextView error)
         {
-            if (email.Text == "admin" && password.Text == "admin")
+            if (email.Text == "" && password.Text == "")
             {
                 Log.Debug(TAG, "Successfully logged in.");
                 StartActivity(new Intent(Application.Context, typeof(MainActivity)));

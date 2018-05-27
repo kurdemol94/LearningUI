@@ -2041,17 +2041,17 @@ namespace LearningUI
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060082
-			public const int HomeFrameLayout = 2131099778;
-			
-			// aapt resource value: 0x7f06007e
-			public const int LoginButton = 2131099774;
-			
 			// aapt resource value: 0x7f060084
-			public const int action0 = 2131099780;
+			public const int HomeFrameLayout = 2131099780;
 			
-			// aapt resource value: 0x7f060092
-			public const int action_attach = 2131099794;
+			// aapt resource value: 0x7f060080
+			public const int LoginButton = 2131099776;
+			
+			// aapt resource value: 0x7f060086
+			public const int action0 = 2131099782;
+			
+			// aapt resource value: 0x7f060094
+			public const int action_attach = 2131099796;
 			
 			// aapt resource value: 0x7f06005e
 			public const int action_bar = 2131099742;
@@ -2077,8 +2077,8 @@ namespace LearningUI
 			// aapt resource value: 0x7f06005f
 			public const int action_context_bar = 2131099743;
 			
-			// aapt resource value: 0x7f060088
-			public const int action_divider = 2131099784;
+			// aapt resource value: 0x7f06008a
+			public const int action_divider = 2131099786;
 			
 			// aapt resource value: 0x7f060003
 			public const int action_menu_divider = 2131099651;
@@ -2095,8 +2095,8 @@ namespace LearningUI
 			// aapt resource value: 0x7f06003f
 			public const int action_mode_close_button = 2131099711;
 			
-			// aapt resource value: 0x7f060091
-			public const int action_refresh = 2131099793;
+			// aapt resource value: 0x7f060093
+			public const int action_refresh = 2131099795;
 			
 			// aapt resource value: 0x7f060040
 			public const int activity_chooser_view_content = 2131099712;
@@ -2128,8 +2128,8 @@ namespace LearningUI
 			// aapt resource value: 0x7f060047
 			public const int buttonPanel = 2131099719;
 			
-			// aapt resource value: 0x7f060085
-			public const int cancel_action = 2131099781;
+			// aapt resource value: 0x7f060087
+			public const int cancel_action = 2131099783;
 			
 			// aapt resource value: 0x7f06002c
 			public const int center = 2131099692;
@@ -2143,8 +2143,8 @@ namespace LearningUI
 			// aapt resource value: 0x7f060055
 			public const int checkbox = 2131099733;
 			
-			// aapt resource value: 0x7f06008b
-			public const int chronometer = 2131099787;
+			// aapt resource value: 0x7f06008d
+			public const int chronometer = 2131099789;
 			
 			// aapt resource value: 0x7f060035
 			public const int clip_horizontal = 2131099701;
@@ -2154,6 +2154,9 @@ namespace LearningUI
 			
 			// aapt resource value: 0x7f060020
 			public const int collapseActionView = 2131099680;
+			
+			// aapt resource value: 0x7f060078
+			public const int colorSearchView = 2131099768;
 			
 			// aapt resource value: 0x7f06004d
 			public const int contentPanel = 2131099725;
@@ -2188,20 +2191,20 @@ namespace LearningUI
 			// aapt resource value: 0x7f06000e
 			public const int disableHome = 2131099662;
 			
-			// aapt resource value: 0x7f060080
-			public const int drawer_layout = 2131099776;
+			// aapt resource value: 0x7f060082
+			public const int drawer_layout = 2131099778;
 			
 			// aapt resource value: 0x7f060060
 			public const int edit_query = 2131099744;
 			
-			// aapt resource value: 0x7f06007c
-			public const int emailInput = 2131099772;
+			// aapt resource value: 0x7f06007e
+			public const int emailInput = 2131099774;
 			
 			// aapt resource value: 0x7f06001d
 			public const int end = 2131099677;
 			
-			// aapt resource value: 0x7f060090
-			public const int end_padder = 2131099792;
+			// aapt resource value: 0x7f060092
+			public const int end_padder = 2131099794;
 			
 			// aapt resource value: 0x7f060026
 			public const int enterAlways = 2131099686;
@@ -2209,8 +2212,8 @@ namespace LearningUI
 			// aapt resource value: 0x7f060027
 			public const int enterAlwaysCollapsed = 2131099687;
 			
-			// aapt resource value: 0x7f06007f
-			public const int errorLabel = 2131099775;
+			// aapt resource value: 0x7f060081
+			public const int errorLabel = 2131099777;
 			
 			// aapt resource value: 0x7f060028
 			public const int exitUntilCollapsed = 2131099688;
@@ -2248,29 +2251,29 @@ namespace LearningUI
 			// aapt resource value: 0x7f060042
 			public const int image = 2131099714;
 			
-			// aapt resource value: 0x7f060078
-			public const int imageView1 = 2131099768;
+			// aapt resource value: 0x7f06007a
+			public const int imageView1 = 2131099770;
 			
-			// aapt resource value: 0x7f06008f
-			public const int info = 2131099791;
+			// aapt resource value: 0x7f060091
+			public const int info = 2131099793;
 			
 			// aapt resource value: 0x7f060000
 			public const int item_touch_helper_previous_elevation = 2131099648;
 			
-			// aapt resource value: 0x7f060081
-			public const int layout_main = 2131099777;
+			// aapt resource value: 0x7f060083
+			public const int layout_main = 2131099779;
 			
 			// aapt resource value: 0x7f060030
 			public const int left = 2131099696;
 			
-			// aapt resource value: 0x7f060089
-			public const int line1 = 2131099785;
+			// aapt resource value: 0x7f06008b
+			public const int line1 = 2131099787;
 			
-			// aapt resource value: 0x7f06008d
-			public const int line3 = 2131099789;
+			// aapt resource value: 0x7f06008f
+			public const int line3 = 2131099791;
 			
-			// aapt resource value: 0x7f060079
-			public const int linearLayout1 = 2131099769;
+			// aapt resource value: 0x7f06007b
+			public const int linearLayout1 = 2131099771;
 			
 			// aapt resource value: 0x7f06000b
 			public const int listMode = 2131099659;
@@ -2278,8 +2281,8 @@ namespace LearningUI
 			// aapt resource value: 0x7f060044
 			public const int list_item = 2131099716;
 			
-			// aapt resource value: 0x7f060087
-			public const int media_actions = 2131099783;
+			// aapt resource value: 0x7f060089
+			public const int media_actions = 2131099785;
 			
 			// aapt resource value: 0x7f06001e
 			public const int middle = 2131099678;
@@ -2290,20 +2293,23 @@ namespace LearningUI
 			// aapt resource value: 0x7f060016
 			public const int multiply = 2131099670;
 			
-			// aapt resource value: 0x7f060096
-			public const int nav_SearchApartment = 2131099798;
+			// aapt resource value: 0x7f060079
+			public const int myListView = 2131099769;
+			
+			// aapt resource value: 0x7f060098
+			public const int nav_SearchApartment = 2131099800;
+			
+			// aapt resource value: 0x7f060097
+			public const int nav_friends = 2131099799;
 			
 			// aapt resource value: 0x7f060095
-			public const int nav_friends = 2131099797;
+			public const int nav_home = 2131099797;
 			
-			// aapt resource value: 0x7f060093
-			public const int nav_home = 2131099795;
+			// aapt resource value: 0x7f060096
+			public const int nav_messages = 2131099798;
 			
-			// aapt resource value: 0x7f060094
-			public const int nav_messages = 2131099796;
-			
-			// aapt resource value: 0x7f060083
-			public const int nav_view = 2131099779;
+			// aapt resource value: 0x7f060085
+			public const int nav_view = 2131099781;
 			
 			// aapt resource value: 0x7f060072
 			public const int navigation_header_container = 2131099762;
@@ -2323,8 +2329,8 @@ namespace LearningUI
 			// aapt resource value: 0x7f060049
 			public const int parentPanel = 2131099721;
 			
-			// aapt resource value: 0x7f06007d
-			public const int passwordInput = 2131099773;
+			// aapt resource value: 0x7f06007f
+			public const int passwordInput = 2131099775;
 			
 			// aapt resource value: 0x7f060034
 			public const int pin = 2131099700;
@@ -2431,8 +2437,8 @@ namespace LearningUI
 			// aapt resource value: 0x7f060032
 			public const int start = 2131099698;
 			
-			// aapt resource value: 0x7f060086
-			public const int status_bar_latest_event_content = 2131099782;
+			// aapt resource value: 0x7f060088
+			public const int status_bar_latest_event_content = 2131099784;
 			
 			// aapt resource value: 0x7f060058
 			public const int submenuarrow = 2131099736;
@@ -2443,26 +2449,26 @@ namespace LearningUI
 			// aapt resource value: 0x7f06000d
 			public const int tabMode = 2131099661;
 			
-			// aapt resource value: 0x7f06008e
-			public const int text = 2131099790;
+			// aapt resource value: 0x7f060090
+			public const int text = 2131099792;
 			
-			// aapt resource value: 0x7f06008c
-			public const int text2 = 2131099788;
+			// aapt resource value: 0x7f06008e
+			public const int text2 = 2131099790;
 			
 			// aapt resource value: 0x7f060050
 			public const int textSpacerNoButtons = 2131099728;
 			
-			// aapt resource value: 0x7f06007a
-			public const int textView1 = 2131099770;
+			// aapt resource value: 0x7f06007c
+			public const int textView1 = 2131099772;
 			
-			// aapt resource value: 0x7f06007b
-			public const int textView2 = 2131099771;
+			// aapt resource value: 0x7f06007d
+			public const int textView2 = 2131099773;
 			
 			// aapt resource value: 0x7f060077
 			public const int text_input_password_toggle = 2131099767;
 			
-			// aapt resource value: 0x7f06008a
-			public const int time = 2131099786;
+			// aapt resource value: 0x7f06008c
+			public const int time = 2131099788;
 			
 			// aapt resource value: 0x7f060046
 			public const int title = 2131099718;

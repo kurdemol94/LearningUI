@@ -41,10 +41,7 @@ namespace LearningUI
             drawerToggle.SyncState();
 
             //load default home screen
-            var ft = FragmentManager.BeginTransaction();
-            ft.AddToBackStack(null);
-            ft.Add(Resource.Id.HomeFrameLayout, new HomeFragment());
-            ft.Commit();
+            SupportFragmentManager.BeginTransaction().Add(Resource.Id.HomeFrameLayout, new HomeFragment()).Commit();
         }
         //define custom title text
         protected override void OnResume()
@@ -100,7 +97,7 @@ namespace LearningUI
         //to avoid direct app exit on backpreesed and to show fragment from stack
         public override void OnBackPressed()
         {
-            if (FragmentManager.BackStackEntryCount != 0)
+            if (FragmentManager.BackStackEntryCount > 1)
             {
                 FragmentManager.PopBackStack();// fragmentManager.popBackStack();
             }

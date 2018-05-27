@@ -128,11 +128,6 @@
     </AndroidResource>
     <AndroidResource Include="Resources\layout\headerdrawerlayout.axml" />
     <AndroidResource Include="Resources\layout\AppBar.axml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
     <AndroidResource Include="Resources\values\Strings.xml" />
   </ItemGroup>
   <ItemGroup>
